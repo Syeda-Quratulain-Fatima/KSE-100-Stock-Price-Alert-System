@@ -168,7 +168,7 @@ def load_csv():
 # ══════════════════════════════════════════════════════════════
 # SIDEBAR — Navigation
 # ══════════════════════════════════════════════════════════════
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Pakistan_Stock_Exchange_logo.svg/200px-Pakistan_Stock_Exchange_logo.svg.png", width=80)
+st.sidebar.image("../assets/stock_market.jpg", width=200)
 st.sidebar.title("📈 KSE-100 Alert System")
 st.sidebar.caption("DSA Term Project | COMSATS")
 st.sidebar.divider()
@@ -200,32 +200,15 @@ else:
 # ══════════════════════════════════════════════════════════════
 if page == "🏠 Home & Project Overview":
     st.title("📈 KSE-100 Stock Price Alert System")
-    st.subheader("CSC211 — Data Structures & Algorithms | Team Project")
+    st.subheader("CSC211 — Data Structures & Algorithms")
     st.caption("BS Economics with Data Science | COMSATS University Islamabad")
-
     st.divider()
-    st.markdown("## Group Members")
+    st.markdown("### 👩‍💻 Project Developer")
 
-    col_a, col_b = st.columns(2)
-
-    with col_a:
-        st.markdown("""
-        **Syeda Quratulain Fatima**
-        FA24-BED-095
-
-        **Maryam Mohsin**
-        FA24-BED-043
-        """)
-
-    with col_b:
-        st.markdown("""
-        **Hadia Ghazali**
-        FA24-BED-087
-
-        **Hafiz Zohaib Arshad**
-        FA24-BED-029
-        """)
-
+    st.markdown("""
+                **Syeda Quratulain Fatima**  
+                FA24-BED-095
+""")
     st.divider()
     st.markdown("## What Problem Are We Solving?")
     st.info("""
