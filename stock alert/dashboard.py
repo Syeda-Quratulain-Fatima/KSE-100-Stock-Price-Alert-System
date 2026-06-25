@@ -205,8 +205,7 @@ if page == "🏠 Home & Project Overview":
     st.markdown("### 👩‍💻 Project Developer")
 
     st.markdown("""
-                **Syeda Quratulain Fatima**  
-                FA24-BED-095
+        **Syeda Quratulain Fatima**  
 """)
     st.divider()
     st.markdown("## What Problem Are We Solving?")
