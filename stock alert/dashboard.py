@@ -168,7 +168,6 @@ def load_csv():
 # ══════════════════════════════════════════════════════════════
 # SIDEBAR — Navigation
 # ══════════════════════════════════════════════════════════════
-st.sidebar.image("../assets/stock_market.jpg", width=200)
 st.sidebar.title("📈 KSE-100 Alert System")
 st.sidebar.caption("DSA Term Project | COMSATS")
 st.sidebar.divider()
